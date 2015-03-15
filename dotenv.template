@@ -1,0 +1,9 @@
+CLOUDSTACK_API_KEY          = '<APIキー>'
+CLOUDSTACK_SECRET_KEY       = '<シークレットキー>'
+# cloudmonkey list publicipaddresses filter=id,workname
+CLOUDSTACK_PF_IP_ADDRESS_ID = '<ポートフォワーディングに使用するIPアドレスのID>'
+# cloudmonkey list sshkeypairs filter=name
+CLOUDSTACK_SSH_KEYPAIR      = 'sshkeypairの名前'
+CLOUDSTACK_PF_PUBLIC_PORT   = '2222'
+VAGRANT_SSH_USERNAME        = 'vagrant'
+VAGRANT_SSH_PRIVATE_KEY     = '~/.ssh/id_rsa_idcfcloud'
