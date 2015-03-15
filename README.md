@@ -58,7 +58,9 @@ vagrant up --provider=cloudstack
 
 __*Let's Enjoy! idcf cloud*__
 
+----
 ### 参考サイト
+----
 - [Vagrant-cloudstack用 CentOS 6.5 テンプレート公開 | IDC Frontier Engineers' Blog](http://www.idcf.jp/blog/cloud/vagrant-cloudstack-2/) → ちょっと古かった
 - [VagrantでIDCFクラウド、Cloud n、ALTUSを使ってみる - Qiita](http://qiita.com/atsaki/items/f12e82f109193321fb13) → こちらのほうが新しくて、詳しいです！
 
