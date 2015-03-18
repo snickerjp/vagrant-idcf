@@ -32,7 +32,7 @@ Vagrant.configure("2") do |config|
     cloudstack.service_offering_name = "light.S1"
     cloudstack.network_type          = "Advanced"
     cloudstack.network_name          = "network1"                       
-    cloudstack.keypair               = "#{ENV['VAGRANT_SSH_PRIVATE_KEY']}"
+    cloudstack.keypair               = "#{ENV['CLOUDSTACK_SSH_KEYPAIR']}"
 
     # timeout 設定 
     cloudstack.instance_ready_timeout = 1800
